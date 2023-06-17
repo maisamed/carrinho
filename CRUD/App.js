@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, FlatList, StyleSheet, flexDirection} from 'react-native';
-import Aba from './Aba'
+
 
 const App = () => {
   const [items, setItems] = useState([]);
